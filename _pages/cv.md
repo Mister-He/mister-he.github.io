@@ -26,19 +26,17 @@ Work experience
   3. Contribute to academic writing and publish research findings
   4. Prepare presentation materials for stakeholder meetings
   * Works:
-  1. Hepatitis C transmission and progression among people who have injected drugs in Singapore: Modelling treatment for eradication (co-first author, under reviewing)
-  2. Help modelling hypertension prevalence in Singapore
+  1. [Hepatitis C transmission and progression among people who have injected drugs in Singapore: Modelling treatment for eradication](https://www.medrxiv.org/content/10.1101/2025.10.24.25338708v1) (co-first author, under reviewing)
+  2. Model hypertension prevalence in Singapore
   * Supervisor: [Dr. Borame Sue Lee Dickens](https://discovery.nus.edu.sg/7093-borame-sue-lee-dickens/about)
   
 Skills
 ======
 * Research
-  - Mathematical Modeling
-  - Geospatial Modeling
+  - Mathematical Disease Modeling
   - Cost-Effectiveness Analysis
-  - Artificial Intelligence
-* Coding: R, C++, Linux, Python, MATLAB, LINGO
-* Statistical analysis: SPSS, SAS
+* Coding: R, C++, Python, Shell, MATLAB, LINGO
+* Statistical analysis: STATA, SPSS, SAS
 * Technical writing: Markdown, Obsidian, Latex
 
 <!-- Publications
