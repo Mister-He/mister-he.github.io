@@ -27,7 +27,8 @@ Work experience
   4. Prepare presentation materials for stakeholder meetings
   * Works:
   1. [Hepatitis C transmission and progression among people who have injected drugs in Singapore: Modelling treatment for eradication](https://www.medrxiv.org/content/10.1101/2025.10.24.25338708v1) (co-first author, under reviewing)
-  2. Model hypertension prevalence in Singapore
+  2. [Time for Tobacco Elimination: Modelling smoking cessation strategies and lung cancer screening in Singapore](https://www.medrxiv.org/content/10.64898/2026.05.06.26352560v1) (First author, under reviewing)
+  3. Model hypertension prevalence in Singapore
   * Supervisor: [Dr. Borame Sue Lee Dickens](https://discovery.nus.edu.sg/7093-borame-sue-lee-dickens/about)
   
 Skills
