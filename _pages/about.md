@@ -84,12 +84,9 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
 </div>
 
 - **The Lancet Regional Health-Western Pacific** [Impact of the national steps challenge physical activity programme on obesity and type 2 diabetes prevalence in Singapore to 2050: simulation-based forecasting analysis](https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(26)00035-0/fulltext), Bekzod Normatov, Haolong Song, Shihui Jin, Xinyu Zhang, **Yichen He**, Nigel WH Lim, Vong Fee Zheng, Muhammad Hafiz Bin Mohd Aziz, Falk Müller-Riemenschneider, Charmaine Pei Ling Lee, Borame L Dickens
-- Preprint [Feature Selection in High-dimensional Spaces Using Graph-Based Methods](https://arxiv.org/abs/2108.12682), Swarnadip Ghosh, Somabha Mukherjee, Divyansh Agarwal, **Yichen He**, Mingzhi Song, Xuejiao Pei
+- **Preprint** [Feature Selection in High-dimensional Spaces Using Graph-Based Methods](https://arxiv.org/abs/2108.12682), Swarnadip Ghosh, Somabha Mukherjee, Divyansh Agarwal, **Yichen He**, Mingzhi Song, Xuejiao Pei
 
 # Skills
 * Coding: R, C++, Python, Linux, MATLAB, LINGO
 * Statistical software: STATA, SPSS, SAS
 * Technical writing: Markdown, Obsidian, Latex, HTML
-<!-- # Honors and Awards
-
-- Soochow University Excellent Scholarship (Academic Year 2018-2019, 2019-2020, 2021-2022) -->

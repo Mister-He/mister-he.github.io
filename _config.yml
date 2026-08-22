@@ -23,7 +23,7 @@ repository               : "Mister-He/mister-he.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile_Photo_2.png"
+  avatar           : "Profile_Photo_2.jpg"
   name             : "He Yichen"
   pronouns         : # example: "she/her"  
   bio              : "Keep learning"
