@@ -23,7 +23,7 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
     <div class="paper-image-wrapper">
       <div class="paper-badge">medRxiv</div>
       <img
-        src="{{ '/images/HCV_model_schematic.png' | relative_url }}"
+        src="github.com/Mister-He/images/HCV_model_schematic.png"
         alt="HCV model schematic">
     </div>
   </div>
@@ -56,7 +56,7 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
     <div class="paper-image-wrapper">
       <div class="paper-badge">medRxiv</div>
       <img
-        src="{{ '/images/DEMOS-MISCAN-Lung_model_schematic.png' | relative_url }}"
+        src="github.com/Mister-He/images/DEMOS-MISCAN-Lung_model_schematic.png'"
         alt="DEMOS-MISCAN-Lung model schematic">
     </div>
   </div>
