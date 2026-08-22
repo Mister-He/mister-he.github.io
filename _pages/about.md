@@ -9,7 +9,7 @@ redirect_from:
 
 I'm Yichen He (何逸辰), a current PhD student at the National University of Singapore, co-supervised by [Dr. Borame Sue Lee Dickens](https://discovery.nus.edu.sg/7093-borame-sue-lee-dickens/about) and [A/Prof. Alec Morton](https://discovery.nus.edu.sg/24686-alec-morton).
 
-My research focuses on mathematical disease modeling, simulation methods, health economic evaluation, and cancer prevention and control.
+My research focuses on mathematical disease modeling, simulation methods, health economic evaluation, and cancer control policies.
 
 Open to collaborations. Feel free to reach out if you are interested in my research!
 
@@ -23,7 +23,7 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
     <div class="paper-image-wrapper">
       <div class="paper-badge">medRxiv</div>
       <img
-        src="github.com/Mister-He/images/HCV_model_schematic.png"
+        src="/images/HCV_model_schematic.png"
         alt="HCV model schematic">
     </div>
   </div>
@@ -56,7 +56,7 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
     <div class="paper-image-wrapper">
       <div class="paper-badge">medRxiv</div>
       <img
-        src="github.com/Mister-He/images/DEMOS-MISCAN-Lung_model_schematic.png'"
+        src="/images/DEMOS-MISCAN-Lung_model_schematic.png'"
         alt="DEMOS-MISCAN-Lung model schematic">
     </div>
   </div>
@@ -86,7 +86,4 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
 
 # Honors and Awards
 
-- Soochow University Excellent Scholarship (Academic Year 2021-2022)
-- Soochow University Excellent Scholarship (Academic Year 2020-2021)
-- Soochow University Excellent Scholarship (Academic Year 2019-2020)
-- Soochow University Excellent Scholarship (Academic Year 2018-2019)
+- Soochow University Excellent Scholarship (Academic Year 2018-2019, 2019-2020, 2021-2022)
