@@ -56,7 +56,7 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
     <div class="paper-image-wrapper">
       <div class="paper-badge">medRxiv</div>
       <img
-        src="/images/DEMOS_MISCAN_Lung_model_schematic.jpg'"
+        src="/images/DEMOS-MISCAN-Lung_model_schematic.jpg"
         alt="DEMOS-MISCAN-Lung model schematic">
     </div>
   </div>
