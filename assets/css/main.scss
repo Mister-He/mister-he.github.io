@@ -41,3 +41,78 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ==========================================================================
+   Publication cards
+   ========================================================================== */
+
+.paper-box {
+  display: grid;
+  grid-template-columns: minmax(260px, 40%) 1fr;
+  gap: 28px;
+
+  width: 100%;
+  margin: 24px 0 36px 0;
+  align-items: start;
+}
+
+.paper-box-image {
+  width: 100%;
+}
+
+.paper-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.paper-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.paper-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: #003f9e;
+  color: white;
+
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  z-index: 2;
+}
+
+.paper-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.paper-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.paper-authors {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+}
+
+.paper-link {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .paper-box {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
