@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-Singapore"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "He Yichen"
 title_separator          : "-"
 name                     : &name "He Yichen"
@@ -23,7 +23,7 @@ repository               : "Mister-He/mister-he.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile Photo.jpg"
+  avatar           : "Profile_Photo_2.jpg"
   name             : "He Yichen"
   pronouns         : # example: "she/her"  
   bio              : "Keep learning"
@@ -38,10 +38,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=ULX8cfQAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0001-0715-6708"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Yichen-He-8"
   scopus           : # URL
 
   # Repositories and software development
