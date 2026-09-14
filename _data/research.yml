@@ -1,0 +1,46 @@
+focus:
+  - Mathematical disease modelling
+  - Simulation methods
+  - Health economic evaluation
+  - Cancer control policies
+
+skills:
+  - R
+  - Python
+  - C++
+  - Linux
+  - MATLAB
+  - STATA
+  - SPSS
+  - SAS
+  - LaTeX
+
+publications:
+  - title: "Hepatitis C transmission and progression among people who have injected drugs in Singapore: Modelling treatment for eradication"
+    badge: "medRxiv"
+    year: "2025"
+    image: "HCV_model_schematic.jpg"
+    authors: "Minah Park*, Yichen He*, Shihui Jin, Nigel W H Lim, Jue Tao Lim, Si Jack Chong, Borame L Dickens"
+    link: "https://www.medrxiv.org/content/10.1101/2025.10.24.25338708v1"
+    action: "read preprint"
+  - title: "Time for Tobacco Elimination: Modelling smoking cessation strategies and lung cancer screening in Singapore"
+    badge: "medRxiv"
+    year: "2026"
+    image: "DEMOS-MISCAN-Lung_model_schematic.jpg"
+    authors: "Yichen He, Shihui Jin, Xinyu Zhang, King Ian Fong, Yi Wang, Kelvin Bryan Tan, Ross Soo, Jue Tao Lim, Borame L Dickens"
+    link: "https://www.medrxiv.org/content/10.64898/2026.05.06.26352560v1"
+    action: "read preprint"
+  - title: "Impact of the national steps challenge physical activity programme on obesity and type 2 diabetes prevalence in Singapore to 2050"
+    badge: "The Lancet Regional Health — Western Pacific"
+    year: "2026"
+    image: "500x300.png"
+    authors: "Bekzod Normatov, Haolong Song, Shihui Jin, Xinyu Zhang, Yichen He, Nigel WH Lim, Vong Fee Zheng, et al."
+    link: "https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(26)00035-0/fulltext"
+    action: "open article"
+  - title: "Feature Selection in High-dimensional Spaces Using Graph-Based Methods"
+    badge: "arXiv"
+    year: "2021"
+    image: "500x300.png"
+    authors: "Swarnadip Ghosh, Somabha Mukherjee, Divyansh Agarwal, Yichen He, Mingzhi Song, Xuejiao Pei"
+    link: "https://arxiv.org/abs/2108.12682"
+    action: "open preprint"

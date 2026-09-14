@@ -1,0 +1,13 @@
+{% include base_path %}
+<article class="publication-card">
+  <div class="publication-card__visual">
+    <img src="{{ base_path }}/images/{{ include.item.image }}" alt="Research diagram for {{ include.item.title }}" loading="lazy">
+    <span class="publication-card__flag">{{ include.item.badge }}</span>
+  </div>
+  <div>
+    <p class="publication-card__meta"><span>research.output</span><span>{{ include.item.year }}</span></p>
+    <h3><a href="{{ include.item.link }}">{{ include.item.title }}</a></h3>
+    <p class="publication-card__authors">{{ include.item.authors }}</p>
+    <a class="publication-card__action" href="{{ include.item.link }}">{{ include.item.action }}</a>
+  </div>
+</article>

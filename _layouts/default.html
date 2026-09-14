@@ -5,25 +5,22 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
-
-    {% include browser-upgrade.html %}
+  <body class="terminal-site{% if page.url == '/' %} terminal-site--home{% endif %}">
     {% include masthead.html %}
 
-    {{ content }}
+    <main id="main" class="site-main" role="main">
+      {{ content }}
+    </main>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    <footer class="site-footer">
+      {% include footer.html %}
+    </footer>
 
     {% include scripts.html %}
 
