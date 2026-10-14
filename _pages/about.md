@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Yichen He (何逸辰), a current PhD student at the National University of Singapore, co-supervised by [Dr. Borame Sue Lee Dickens](https://discovery.nus.edu.sg/7093-borame-sue-lee-dickens/about) and [A/Prof. Alec Morton](https://discovery.nus.edu.sg/24686-alec-morton).
+I'm Yichen He (何逸辰), a current PhD candidate at the National University of Singapore, co-supervised by [Dr. Borame Sue Lee Dickens](https://discovery.nus.edu.sg/7093-borame-sue-lee-dickens/about) and [A/Prof. Alec Morton](https://discovery.nus.edu.sg/24686-alec-morton).
 
 My research focuses on mathematical disease modeling, simulation methods, health economic evaluation, and cancer control policies.
 
@@ -87,6 +87,6 @@ Open to collaborations. Feel free to reach out if you are interested in my resea
 - **Preprint** [Feature Selection in High-dimensional Spaces Using Graph-Based Methods](https://arxiv.org/abs/2108.12682), Swarnadip Ghosh, Somabha Mukherjee, Divyansh Agarwal, **Yichen He**, Mingzhi Song, Xuejiao Pei
 
 # Skills
-* Coding: R, C++, Python, Linux, MATLAB, LINGO
+* Coding: R, C++, Python, Lua, MATLAB, Julia
 * Statistical software: STATA, SPSS, SAS
 * Technical writing: Markdown, Obsidian, Latex, HTML
