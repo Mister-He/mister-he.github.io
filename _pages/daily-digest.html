@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Daily Digest"
+permalink: /daily-digest/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign digests = site.daily_digest | sort: 'date' | reverse %}
+{% for post in digests %}
+  {% include archive-single.html %}
+{% else %}
+  <p>No daily digests published yet.</p>
+{% endfor %}

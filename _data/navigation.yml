@@ -22,6 +22,9 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Daily Digest"
+    url: /daily-digest/
     
   # - title: "CV"
   #   url: /cv/

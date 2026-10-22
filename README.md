@@ -15,6 +15,36 @@
 
 See more info at https://academicpages.github.io/
 
+## Publishing a daily digest
+
+The **Daily Digest** navigation tab opens `/daily-digest/`, listing entries newest first.
+Add each Markdown file to `_daily_digest/`, for example `_daily_digest/2026-10-22.md`,
+with this front matter at the very beginning:
+
+```markdown
+---
+title: "Daily Digest — October 22, 2026"
+date: 2026-10-22
+excerpt: "A short summary of today's digest."
+---
+
+## Highlights
+
+Write or paste your daily digest here.
+```
+
+Change the filename, title, date, and content for each day. The example entry will
+appear at `/daily-digest/2026-10-22/`. The `excerpt` is optional.
+
+To upload using GitHub, open `_daily_digest/` in the repository, choose **Add file →
+Upload files**, and commit your Markdown file to the branch used for GitHub Pages.
+You can also copy the file into the local folder, commit it, and push. Once GitHub
+Pages rebuilds, the entry appears in the archive. Uploads happen through the
+repository; the website itself has no upload form.
+
+If a local Jekyll server is already running when you add the collection configuration,
+restart it to load the new settings.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:

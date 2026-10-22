@@ -219,6 +219,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  daily_digest:
+    output: true
+    permalink: /daily-digest/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -235,6 +238,13 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # _daily_digest
+  - scope:
+      path: ""
+      type: daily_digest
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
