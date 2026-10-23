@@ -17,31 +17,84 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
+$border-radius              : 2px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$global-transition          : color 0.15s ease-out, background-color 0.15s ease-out, border-color 0.15s ease-out;
 $masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
+$navicon-width              : 22px;
+$navicon-height             : 2px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
+/* Default light theme for the site.
+   Palette primitives live here; every component reads the semantic --ds-* or
+   legacy --global-* names, never a raw hex. Shared non-colour tokens are set
+   once on :root and inherited by the dark theme. */
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    /* Colour: semantic */
+    --ds-color-bg                       : #fbfaf7;
+    --ds-color-bg-subtle                : #f2efe8;
+    --ds-color-text                     : #211f1b;
+    --ds-color-text-muted               : #5c574e;
+    --ds-color-border                   : #e4e0d8;
+    --ds-color-border-strong            : #8f897d;
+    --ds-color-accent                   : #1d5470;
+    --ds-color-accent-hover             : #123a4f;
+    --ds-color-focus                    : #1d5470;
+
+    /* Typography */
+    --ds-font-serif                     : "Source Serif 4", "Iowan Old Style", "Charter", Georgia, "Songti SC", serif;
+    --ds-font-sans                      : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
+    --ds-font-mono                      : ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --ds-text-xs                        : 0.75rem;
+    --ds-text-sm                        : 0.875rem;
+    --ds-text-base                      : 1rem;
+    --ds-text-lg                        : 1.1875rem;
+    --ds-text-xl                        : 1.3125rem;
+    --ds-text-2xl                       : 1.5rem;
+    --ds-text-3xl                       : 1.75rem;
+    --ds-text-display                   : 2.5rem;
+    --ds-leading-tight                  : 1.2;
+    --ds-leading-body                   : 1.65;
+    --ds-tracking-label                 : 0.06em;
+    --ds-measure                        : 68ch;
+    --ds-measure-lead                   : 54ch;
+
+    /* Space: 4px rhythm */
+    --ds-space-1                        : 0.25rem;
+    --ds-space-2                        : 0.5rem;
+    --ds-space-3                        : 0.75rem;
+    --ds-space-4                        : 1rem;
+    --ds-space-6                        : 1.5rem;
+    --ds-space-8                        : 2rem;
+    --ds-space-12                       : 3rem;
+    --ds-space-16                       : 4rem;
+
+    /* Shape, motion, targets */
+    --ds-radius                         : 2px;
+    --ds-border-width                   : 1px;
+    --ds-focus-width                    : 2px;
+    --ds-duration                       : 150ms;
+    --ds-duration-instant               : 0.01ms;
+    --ds-ease                           : ease-out;
+    --ds-target-min                     : 2.75rem;
+    --ds-figure-width                   : 12rem;
+
+    /* Legacy names used across the upstream theme, mapped onto the tokens */
+    --global-base-color                 : var(--ds-color-text-muted);
+    --global-bg-color                   : var(--ds-color-bg);
+    --global-footer-bg-color            : var(--ds-color-bg);
+    --global-border-color               : var(--ds-color-border);
+    --global-dark-border-color          : var(--ds-color-border);
+    --global-code-background-color      : var(--ds-color-bg-subtle);
+    --global-code-text-color            : var(--ds-color-text);
+    --global-fig-caption-color          : var(--ds-color-text-muted);
+    --global-link-color                 : var(--ds-color-accent);
+    --global-link-color-hover           : var(--ds-color-accent-hover);
+    --global-link-color-visited         : var(--ds-color-accent);
+    --global-masthead-link-color        : var(--ds-color-text);
+    --global-masthead-link-color-hover  : var(--ds-color-accent);
+    --global-text-color                 : var(--ds-color-text);
+    --global-text-color-light           : var(--ds-color-text-muted);
+    --global-thead-color                : var(--ds-color-bg-subtle);
 }
