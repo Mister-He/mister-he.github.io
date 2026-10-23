@@ -11,16 +11,21 @@
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  color: #fff !important;
+  color: var(--ds-color-bg);
   font-family: $sans-serif;
   font-size: $type-size-6;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   background-color: var(--global-base-color);
-  border: 0 !important;
+  border: 0;
   border-radius: $border-radius;
   cursor: pointer;
+
+  /* outrank a:visited without !important */
+  &:visited {
+    color: var(--ds-color-bg);
+  }
 
   &:hover {
     background-color: mix(white, #000, 20%);
@@ -47,13 +52,14 @@
 
   /* for dark backgrounds */
 
-  &--inverse {
-    color: var(--global-text-color-light) !important;
-    border: 1px solid var(--global-border-color) !important; /* override*/
+  &--inverse,
+  &--inverse:visited {
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-border-color);
     background-color: var(--global-bg-color);
 
     &:hover {
-      color: #fff !important;
+      color: var(--global-text-color);
       border-color: var(--global-text-color-light);
     }
   }
