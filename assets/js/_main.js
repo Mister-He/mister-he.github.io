@@ -33,9 +33,11 @@ let setTheme = (theme) => {
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
     $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+    $("#theme-toggle a").attr("aria-pressed", "true");
   } else if (use_theme === "light") {
     $("html").removeAttr("data-theme");
     $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+    $("#theme-toggle a").attr("aria-pressed", "false");
   }
 };
 
@@ -101,6 +103,13 @@ $(document).ready(function () {
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
+  // The toggle is an anchor with role="button", so give it button keys
+  $('#theme-toggle a').on('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleTheme();
+    }
+  });
 
   // Enable the sticky footer
   var bumpIt = function () {

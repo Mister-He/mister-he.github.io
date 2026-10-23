@@ -4,7 +4,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="More pages" aria-expanded="false" aria-controls="site-nav-hidden"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
@@ -13,13 +13,16 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign in_section = false %}
+            {% if page.url contains link.url %}{% assign in_section = true %}{% endif %}
+            {% if link.url == '/year-archive/' and page.collection == 'posts' %}{% assign in_section = true %}{% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if in_section %} class="is-active"{% endif %}{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+            <a role="button" tabindex="0" aria-label="Toggle dark theme"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i></a>
           </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="site-nav-hidden" class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
