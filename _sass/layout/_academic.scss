@@ -273,6 +273,14 @@ a {
   }
 }
 
+/* Upstream reserves an empty 2/12 right gutter, pushing pages off-centre;
+   archives already span the full column. Prose stays capped by --ds-measure. */
+.page {
+  @include breakpoint($large) {
+    padding-right: 0;
+  }
+}
+
 .page__byline {
   margin: 0 0 var(--ds-space-8);
 }
