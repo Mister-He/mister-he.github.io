@@ -24,7 +24,7 @@ main:
     url: /year-archive/
 
   - title: "Weekly Digest"
-    url: /weekly-digest/
+    url: /weekly_digest/
     
   # - title: "CV"
   #   url: /cv/
